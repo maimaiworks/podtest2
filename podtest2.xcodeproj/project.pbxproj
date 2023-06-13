@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D0524AD2A3752440079C549 /* podtest2.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8D0524AC2A3752440079C549 /* podtest2.docc */; };
 		8D0524B32A3752450079C549 /* podtest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0524A82A3752440079C549 /* podtest2.framework */; };
 		8D0524B82A3752450079C549 /* podtest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0524B72A3752450079C549 /* podtest2Tests.swift */; };
 		8D0524B92A3752450079C549 /* podtest2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0524AB2A3752440079C549 /* podtest2.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,7 +26,6 @@
 /* Begin PBXFileReference section */
 		8D0524A82A3752440079C549 /* podtest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = podtest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0524AB2A3752440079C549 /* podtest2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = podtest2.h; sourceTree = "<group>"; };
-		8D0524AC2A3752440079C549 /* podtest2.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = podtest2.docc; sourceTree = "<group>"; };
 		8D0524B22A3752450079C549 /* podtest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podtest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0524B72A3752450079C549 /* podtest2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podtest2Tests.swift; sourceTree = "<group>"; };
 		8D0524C22A3752700079C549 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			children = (
 				8D0524AB2A3752440079C549 /* podtest2.h */,
 				8D0524C22A3752700079C549 /* Utility.swift */,
-				8D0524AC2A3752440079C549 /* podtest2.docc */,
 			);
 			path = podtest2;
 			sourceTree = "<group>";
@@ -198,7 +195,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0524C32A3752700079C549 /* Utility.swift in Sources */,
-				8D0524AD2A3752440079C549 /* podtest2.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
